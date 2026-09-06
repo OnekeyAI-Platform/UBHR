@@ -1,0 +1,35 @@
+{
+ "radio_dir": "D:\20221227-DuChunYang\data4",
+ "label_file": "split_info\label-CV-0.csv",
+ "task_column": "label",
+ "dataset_column": "group",
+ "clinic_file": "D:\20221227-DuChunYang\data4\Clinical.csv",
+ "stats_columns": [
+  "chemotherapy",
+  "gender",
+  "result",
+  "duration",
+  "age",
+  "BMI",
+  "degree",
+  "Tstage",
+  "smoke",
+  "drink",
+  "rad_signature"
+ ],
+ "continuous_columns": [
+  "age",
+  "duration",
+  "BMI",
+  "rad_signature"
+ ],
+ "clinic_sel_columns": [
+  "Procedure_time",
+  "Diabetes",
+  "Hypertension",
+  "Ischemic_stroke",
+  "Stent_amount"
+ ],
+ "sel_model": "LR",
+ "ml_models": ["LR", "SVM", "LightGBM", "ExtraTrees", "XGBoost", "RandomForest"]
+}

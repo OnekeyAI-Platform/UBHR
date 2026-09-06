@@ -1,2 +1,11 @@
-# UBHR
-Ultrasound-Based Habitat Radiomics for Preoperative Differentiation Between Non-Epithelial and Epithelial Ovarian Cancer in Patients with Malignant Ovarian Tumors
+# Ultrasound-Based Habitat Radiomics for Preoperative Differentiation Between Non-Epithelial and Epithelial Ovarian Cancer in Patients with Malignant Ovarian Tumors
+
+### Abstract
+
+Purpose: There are notable differences in prognosis and treatment between non-epithelial ovarian cancer (NEOC) and epithelial ovarian cancer (EOC). This study assessed the potential of using ultrasound-based habitat radiomics to preoperatively distinguish NEOC from EOC.
+Patients and methods: This retrospective study encompassed patients diagnosed with malignant ovarian tumors. Ultrasound (US) images were subjected to clustering via the K-means algorithm. After feature extraction and selection, three models were created: radiomics, clinical, and habitat, to distinguish between NEOC and EOC. A nomogram was built by combining the optimal model with clinical predictors. Model performance and utility were evaluated using receiver operating characteristic (ROC) curves, the area under the ROC curve (AUC), the Hosmer-Lemeshow (HL) test, and decision curve analysis (DCA).
+
+Results: We enrolled a cohort of 242 eligible patients for the study. Within the analysis, three distinct habitat subregions (HS) were identified, from which 12 significant features were extracted. Notably, HS3 accounted for seven of these features. We compared the AUC values of testing sets to evaluate the performance and generalization of radiomics, clinical, and habitat models. The habitat signature demonstrated a potential superior performance with an AUC of 0.872, surpassing both the traditional radiomics model (AUC: 0.774) and the clinical signature (AUC: 0.864); however, this difference did not reach statistical significance. Furthermore, the nomogram, which integrated habitat signatures with clinically independent predictors such as age and CA125 level, attained the highest AUC value of 0.923. The HL test indicated that the P-values for the nomogram in both the training and testing sets exceeded 0.05, signifying an adequate model fit. DCA further revealed that the nomogram provided an enhanced net benefit compared to other signatures.
+
+Conclusion: Habitat models may complement clinical models effectively. The nomogram, combining habitat signatures with clinical data, shows potential for preoperative differentiation between NEOC and EOC, potentially aiding in personalized treatment planning.
+Keywords: ovarian cancer, ultrasonography, intratumoral region, habitat subregion, unsupervised, k-means clustering
